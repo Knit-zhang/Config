@@ -1,0 +1,23 @@
+[user]
+	email = knight_zhang@outlook.com
+	name = KyleZhang
+	signingkey = 558627C3399463C5!
+[core]
+	autocrlf = false
+	editor = code
+[http]
+	#proxy = socks5://127.0.0.1:7890
+[https]
+	#proxy = socks5://127.0.0.1:7890
+[http "https://github.com"]
+	proxy = http://127.0.0.1:7890
+[credential]
+	helper = manager-core
+[safe]
+	directory = D:/User/blog
+[commit]
+	gpgsign = true
+[init]
+	defaultbranch = main
+[gpg]
+	program = D:\\Scoop\\apps\\gpg4win\\GnuPG\\bin\\gpg.exe
