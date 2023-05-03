@@ -11,8 +11,3 @@
 
 - 包含 `.ssh` `.gitconfig` 等文件夹的备份
 - 配置文件中包含必要的注释
-
-## [备份脚本](./scripts)
-
-- 包含个人 [项目](./scripts/projects) 和一些好用的 [小工具](./scripts/tools) 
-- 具体使用的语言根据扩展名查看
