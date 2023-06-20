@@ -4,7 +4,7 @@
 # scripts will automatically download the latest docker and docker-compose, be sure that you've connected to the Internet. And script is on ubuntu.
 [ $(id -u) -ne 0 ] && echo "请使用sudo执行该脚本" && exit 2
 echo "******apt换源******“
-echo "是否更换apt源（清华源）(y/N)?"
+echo "是否更换apt源(清华源)(y/N)?"
 read apt_source;
 if $apt_source == 'y' || $apt_source == 'Y'
 then
